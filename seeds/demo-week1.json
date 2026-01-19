@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "week_packs": [
+    {
+      "slug": "week-1-level-1-pack",
+      "title": "Week 1 - Level 1 Pack",
+      "pack_number": 1,
+      "start_day": 1,
+      "end_day": 7
+    }
+  ],
+  "questions": [
+    {
+      "slug": "q1-how-feel",
+      "title": "Q1 - How do you feel?",
+      "content": "<p>How do you feel today?</p>",
+      "type": "single_mcq",
+      "required": 1,
+      "sort_order": 1,
+      "options": [
+        "Amazing",
+        "Good",
+        "Okay",
+        "Not great"
+      ]
+    },
+    {
+      "slug": "q2-energy",
+      "title": "Q2 - Energy level",
+      "content": "<p>How's your energy right now?</p>",
+      "type": "slider",
+      "required": 1,
+      "sort_order": 1,
+      "min": 0,
+      "max": 10,
+      "step": 1
+    },
+    {
+      "slug": "q3-focus",
+      "title": "Q3 - Focus",
+      "content": "<p>What will you focus on today?</p>",
+      "type": "text",
+      "required": 1,
+      "sort_order": 1,
+      "min_len": 2,
+      "max_len": 120
+    },
+    {
+      "slug": "q4-habit",
+      "title": "Q4 - Choose a habit",
+      "content": "<p>Pick one habit you want to improve.</p>",
+      "type": "multi_mcq",
+      "required": 1,
+      "sort_order": 1,
+      "options": [
+        "Sleep",
+        "Hydration",
+        "Exercise",
+        "Reading"
+      ]
+    },
+    {
+      "slug": "q5-gratitude",
+      "title": "Q5 - Gratitude",
+      "content": "<p>Write one thing you're grateful for.</p>",
+      "type": "text",
+      "required": 1,
+      "sort_order": 1,
+      "min_len": 2,
+      "max_len": 200
+    }
+  ],
+  "questionnaires": [
+    {
+      "slug": "qn1-game1",
+      "title": "Q1 - Game 1",
+      "type": "single_mcq",
+      "instructions": "Select one option.",
+      "completion_mode": "all_questions",
+      "scoring_mode": "participation",
+      "questions": [
+        "q1-how-feel"
+      ]
+    },
+    {
+      "slug": "qn2-game2",
+      "title": "Q2 - Game 2",
+      "type": "slider",
+      "instructions": "Move the slider to answer.",
+      "completion_mode": "all_questions",
+      "scoring_mode": "participation",
+      "questions": [
+        "q2-energy"
+      ]
+    },
+    {
+      "slug": "qn3-game3",
+      "title": "Q3 - Game 3",
+      "type": "text",
+      "instructions": "Type your answer.",
+      "completion_mode": "all_questions",
+      "scoring_mode": "participation",
+      "questions": [
+        "q3-focus"
+      ]
+    },
+    {
+      "slug": "qn4-game4",
+      "title": "Q4 - Game 4",
+      "type": "multi_mcq",
+      "instructions": "Choose all that apply.",
+      "completion_mode": "all_questions",
+      "scoring_mode": "participation",
+      "questions": [
+        "q4-habit"
+      ]
+    },
+    {
+      "slug": "qn5-game5",
+      "title": "Q5 - Game 5",
+      "type": "text",
+      "instructions": "Keep it short.",
+      "completion_mode": "all_questions",
+      "scoring_mode": "participation",
+      "questions": [
+        "q5-gratitude"
+      ]
+    }
+  ],
+  "minigames": [
+    {
+      "slug": "mg1-game1",
+      "title": "Game 1",
+      "type": "single_mcq",
+      "points": 10,
+      "circle_label": "1",
+      "icon_key": "",
+      "questionnaire": "qn1-game1"
+    },
+    {
+      "slug": "mg2-game2",
+      "title": "Game 2",
+      "type": "slider",
+      "points": 10,
+      "circle_label": "2",
+      "icon_key": "",
+      "questionnaire": "qn2-game2"
+    },
+    {
+      "slug": "mg3-game3",
+      "title": "Game 3",
+      "type": "text",
+      "points": 10,
+      "circle_label": "3",
+      "icon_key": "",
+      "questionnaire": "qn3-game3"
+    },
+    {
+      "slug": "mg4-game4",
+      "title": "Game 4",
+      "type": "multi_mcq",
+      "points": 10,
+      "circle_label": "4",
+      "icon_key": "",
+      "questionnaire": "qn4-game4"
+    },
+    {
+      "slug": "mg5-game5",
+      "title": "Game 5",
+      "type": "text",
+      "points": 10,
+      "circle_label": "5",
+      "icon_key": "",
+      "questionnaire": "qn5-game5"
+    }
+  ],
+  "day_assignments": [
+    {
+      "day_number": 1,
+      "minigames": [
+        "mg1-game1",
+        "mg2-game2",
+        "mg3-game3",
+        "mg4-game4",
+        "mg5-game5"
+      ]
+    }
+  ]
+}

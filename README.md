@@ -5,8 +5,9 @@ The system allows admins to configure structured daily challenges (levels, mini-
 
 ## 📌 Project Status
 
-Current Phase:
-✅ Step 4 - REST API implemented
+### Current Phase:
+
+✅ Step 4 - REST API implemented\
 ⏳ Step 5 - Frontend wiring (next)
 
 This repository contains the backend foundation, admin tooling, database schema, progress engine, and REST API required to safely wire the frontend templates without rework.

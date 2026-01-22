@@ -4,7 +4,7 @@
  * Plugin Name: Championship Life – Gaming Module
  * Description: Standalone interactive gaming module (admin foundation only). Creates Days, Week Packs, Mini-games, Questionnaires, Themes, and configuration screens.
  * Version: 0.1.0
- * Author: IKONIC
+ * Author: Awais Ahmed Khan (Ikonic Solution)
  * License: GPLv2 or later
  * Text Domain: clg
  */
